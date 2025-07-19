@@ -31,7 +31,6 @@ function App() {
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 500 }}>
       <h2>🛡️ Simple Encrypt/Decrypt Tool</h2>
-
       <label>
         🔤 Text:
         <textarea
