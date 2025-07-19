@@ -1,14 +1,8 @@
-// src/layouts/Layout.tsx
-import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router/router";
 
-export default function Layout() {
-  return (
-    <>
-      <Navbar />
-      <main className="p-4">
-        <Outlet />
-      </main>
-    </>
-  );
+function App() {
+  return (<RouterProvider router={router} />);
 }
+
+export default App;

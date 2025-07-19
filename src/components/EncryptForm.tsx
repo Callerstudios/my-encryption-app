@@ -8,6 +8,7 @@ import {
 import { motion } from "framer-motion";
 import { FaLock, FaUnlock, FaKey, FaRandom } from "react-icons/fa";
 import { MdOutlineSwapHoriz } from "react-icons/md";
+import Navbar from "./Navbar";
 
 const EncryptForm = () => {
   const [mode, setMode] = useState<"encrypt" | "decrypt">("encrypt");
@@ -40,8 +41,9 @@ const EncryptForm = () => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="max-w-2xl mx-auto bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-xl space-y-6"
+      className="max-w-2xl mx-auto bg-white  dark:bg-gray-900 p-6 rounded-2xl shadow-xl space-y-6"
     >
+      <Navbar />
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold text-gray-800 dark:text-white">
           Encryption Tool

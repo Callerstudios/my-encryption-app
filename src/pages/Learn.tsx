@@ -1,6 +1,9 @@
+import Navbar from "../components/Navbar";
+
 export default function Learn() {
   return (
-    <div className="min-h-screen w-screen bg-white px-6 py-12 mx-auto text-black">
+    <div className="min-h-screen w-screen pt-20 bg-white px-6 py-12 mx-auto text-black">
+      <Navbar />
       <h2 className="text-3xl font-semibold mb-6">What is Encryption?</h2>
       <p className="mb-4 text-gray-700">
         Encryption is a method of converting information into a secret code to
