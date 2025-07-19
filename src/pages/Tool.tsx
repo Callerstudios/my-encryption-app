@@ -2,7 +2,7 @@ import EncryptForm from "../components/EncryptForm";
 
 const Tool = () => {
   return (
-    <div className="min-h-screen w-screen bg-gradient-to-br from-blue-50 to-blue-200 text-gray-800 p-4">
+    <div className="min-h-screen w-screen bg-gradient-to-br pt-20 from-blue-50 to-blue-200 text-gray-800 p-4">
       <header className="text-center mb-8">
         <h1 className="text-4xl font-bold mb-2">🔐 Encryption Playground</h1>
         <p className="text-lg max-w-2xl mx-auto">
