@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white w-full fixed top-0 left-0 shadow px-6 py-4 flex justify-between items-center">
-      <div className="text-xl font-bold text-blue-600">cryptly</div>
+      <div className="text-xl font-bold text-blue-600">Cryptly</div>
       <div className="space-x-6">
         <Link to="/" className={`font-medium ${isActive("/")}`}>
           Home
