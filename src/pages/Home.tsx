@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center text-center px-4">
-      <h1 className="text-4xl font-bold mb-4">Welcome to Cryptly 🔐</h1>
+    <div className="min-h-screen w-screen bg-gray-50 flex flex-col justify-center items-center text-center px-4">
+      <h1 className="text-4xl font-bold mb-4 text-blue-950">Welcome to Cryptly 🔐</h1>
       <p className="text-lg mb-6 max-w-xl text-gray-700">
         Learn how encryption works and try it out using simple tools. Explore
         Caesar ciphers, key-based encryption, and why securing your data is
