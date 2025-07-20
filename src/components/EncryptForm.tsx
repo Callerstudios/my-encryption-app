@@ -50,7 +50,7 @@ const EncryptForm = () => {
         </h2>
         <button
           onClick={() => setMode(mode === "encrypt" ? "decrypt" : "encrypt")}
-          className="flex items-center space-x-1 text-blue-600 hover:text-blue-800 transition"
+          className="flex items-center space-x-1 text-blue-600 hover:text-blue-800 transition bg-gray-200 p-2 rounded-xl"
         >
           <MdOutlineSwapHoriz className="text-lg" />
           <span>
