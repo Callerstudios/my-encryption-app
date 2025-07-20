@@ -46,7 +46,7 @@ const EncryptForm = () => {
       <Navbar />
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold text-gray-800 dark:text-white">
-          Encryption Tool
+          Encryption Tool{method}
         </h2>
         <button
           onClick={() => setMode(mode === "encrypt" ? "decrypt" : "encrypt")}
